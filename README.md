@@ -6,11 +6,12 @@ This is a simple PHP - Laravel CRUD web application that allows users to Create/
 has following attributes:
 - Id
 - Name (text)
-- Caffeine Level (One of: decaf, low, medium, high)
-- Cost / lb (Dollar/numerical value)
-- Bean Type (One of: Arabica, Robusta, Liberca, Excelsa, Other) Roast (One of: dark, medium, light, french)
-- Grind (One of: whole-bean, fine, medium, coarse)
-- Country of Origin (text)
+- Level (One of: decaf, low, medium, high)
+- Harga (numerical value)
+- proses (One of: washed, honey black, other)
+- variasi (One of : light, medium, dark, french)
+- ketinggian (One of: whole-bean, mix-varient, dominant)
+- asal (text)
 
 ## `CoffeeBeans` Routes
 
